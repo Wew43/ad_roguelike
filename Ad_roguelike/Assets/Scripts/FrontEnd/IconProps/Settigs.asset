@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2370c94312042334286ea13f93e03c81, type: 3}
+  m_Name: Settigs
+  m_EditorClassIdentifier: 
+  windowProperties: {fileID: 11400000, guid: f72c94d5e141dd645bdf113f7a4ee47d, type: 2}
+  iconName: Settings
+  iconSprite: {fileID: 21300000, guid: fd0f5daafffba8949b68fedf9ca177b2, type: 3}
