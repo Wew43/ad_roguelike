@@ -8,6 +8,7 @@ public class Icon : MonoBehaviour
     [SerializeField] IconProperties iconProperties;
     [SerializeField] GameObject WindowPrefab;
     Window myWindow;
+    bool closedWindow;
     void Start()
     {
         GetComponent<SpriteRenderer>().sprite = iconProperties.iconSprite;
@@ -31,10 +32,21 @@ public class Icon : MonoBehaviour
             myWindow = a.GetComponent<Window>();
             myWindow.windowProperties = iconProperties.windowProperties;
             WindowManager.Up(a.GetComponent<Window>());
+            
         }
         else
         {
-            WindowManager.Up(myWindow.GetComponent<Window>());
+            //WindowManager.Up(myWindow.GetComponent<Window>());
+            if (closedWindow)
+            {
+                WindowManager.OpenWindow(myWindow);
+                closedWindow = !closedWindow;
+            }
+            else if (!closedWindow)
+            {
+                WindowManager.CloseWindow(myWindow);
+                closedWindow = !closedWindow;
+            }
         }
 
     }

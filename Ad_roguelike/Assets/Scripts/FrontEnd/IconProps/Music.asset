@@ -9,10 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c9111be60ae2e5a42937b2b79ee79027, type: 3}
-  m_Name: Settings
+  m_Script: {fileID: 11500000, guid: 2370c94312042334286ea13f93e03c81, type: 3}
+  m_Name: Music
   m_EditorClassIdentifier: 
-  BgSize: {x: 4, y: 4}
-  BgColor: {r: 1, g: 0.6084906, b: 0.6084906, a: 1}
-  DragTabSize: {x: 4, y: 0.25}
-  DragTabColor: {r: 0, g: 1, b: 0.8013716, a: 1}
+  windowProperties: {fileID: 11400000, guid: 274f356b5fce83d419a0c2ee4ed17a1e, type: 2}
+  iconName: Music
+  iconSprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}

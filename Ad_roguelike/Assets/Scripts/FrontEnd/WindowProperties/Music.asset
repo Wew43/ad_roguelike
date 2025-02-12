@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c9111be60ae2e5a42937b2b79ee79027, type: 3}
-  m_Name: Settings
+  m_Name: Music
   m_EditorClassIdentifier: 
-  BgSize: {x: 4, y: 4}
-  BgColor: {r: 1, g: 0.6084906, b: 0.6084906, a: 1}
-  DragTabSize: {x: 4, y: 0.25}
-  DragTabColor: {r: 0, g: 1, b: 0.8013716, a: 1}
+  BgSize: {x: 2, y: 5}
+  BgColor: {r: 0.5801887, g: 0.5801887, b: 1, a: 1}
+  DragTabSize: {x: 2, y: 0.25}
+  DragTabColor: {r: 0.5495038, g: 1, b: 0, a: 1}

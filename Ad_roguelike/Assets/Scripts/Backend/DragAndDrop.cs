@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Xml.Serialization;
 using UnityEngine;
 
 public class DragAndDrop : MonoBehaviour
@@ -15,10 +16,7 @@ public class DragAndDrop : MonoBehaviour
         parent.offset = DeleteZ(parent.offset);
         parent.isHolded = true;
 
-        for (int i = 0; i < parent.transform.childCount; i++)
-        {
-            //parent.transform.GetChild(i).GetComponent<SpriteRenderer>().rendererPriority += 1000;
-        }
+        WindowManager.Up(parent);
 
 
     }
@@ -30,4 +28,6 @@ public class DragAndDrop : MonoBehaviour
     {
         return new Vector3(z.x, z.y, 0);
     }
+
+
 }
