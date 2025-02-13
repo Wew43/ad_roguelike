@@ -14,12 +14,11 @@ public class WindowManager : MonoBehaviour
     {
         
     }
-    public static void Up(Window w)
+    public static void Up(Window w) //Метод поднимает нужный элемент из списка на самый верх
     {
         if (!windows.Contains(w)) 
         { 
             windows.Add(w);
-            //windows.
         }
         else
         {
@@ -29,8 +28,10 @@ public class WindowManager : MonoBehaviour
 
         for (int j = 0; j < windows.Count; j++)
         {
-            windows[j].gameObject.transform.GetChild(0).transform.GetComponent<SpriteRenderer>().sortingOrder = 1 + 100 * j;
-            windows[j].gameObject.transform.GetChild(1).transform.GetComponent<SpriteRenderer>().sortingOrder = 0 + 100 * j;
+            windows[j].gameObject.transform.GetChild(0).transform.GetComponent<SpriteRenderer>().sortingOrder = 1 + 100 * j; //панелька за которую тянуть
+            windows[j].gameObject.transform.GetChild(1).transform.GetComponent<SpriteRenderer>().sortingOrder = 0 + 100 * j; //заполнитель
+            windows[j].gameObject.transform.GetChild(2).transform.GetComponent<Canvas>().sortingOrder = 2 + 100 * j; //канвас тайтла
+            windows[j].gameObject.transform.GetChild(3).GetChild(0).GetChild(0).transform.GetComponent<Canvas>().sortingOrder = 3 + 100 * j; //канвас в темплейте
         }
     }
 

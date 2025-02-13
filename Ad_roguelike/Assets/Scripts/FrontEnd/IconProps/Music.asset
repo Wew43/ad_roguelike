@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windowProperties: {fileID: 11400000, guid: 274f356b5fce83d419a0c2ee4ed17a1e, type: 2}
   iconName: Music
-  iconSprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  iconSprite: {fileID: -1485594157, guid: 7c02b09b7fe26ac4da0dcd3b59f52cd3, type: 3}

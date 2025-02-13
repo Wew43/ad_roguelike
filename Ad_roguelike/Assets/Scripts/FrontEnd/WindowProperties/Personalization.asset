@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: Personalization
   m_EditorClassIdentifier: 
   BgSize: {x: 2, y: 2}
-  BgColor: {r: 1, g: 1, b: 1, a: 1}
+  BgColor: {r: 0.76547265, g: 1, b: 0.45882356, a: 1}
   DragTabSize: {x: 2, y: 0.25}
-  DragTabColor: {r: 0.4107766, g: 0.5283019, b: 0.18191527, a: 1}
+  DragTabColor: {r: 1, g: 1, b: 1, a: 1}
+  Title: Personalization
+  Template: {fileID: 2416273560581872130, guid: 986c4308b9506f448a3a4348cd26c4e0, type: 3}

@@ -15,4 +15,6 @@ MonoBehaviour:
   BgSize: {x: 4, y: 4}
   BgColor: {r: 1, g: 0.6084906, b: 0.6084906, a: 1}
   DragTabSize: {x: 4, y: 0.25}
-  DragTabColor: {r: 0, g: 1, b: 0.8013716, a: 1}
+  DragTabColor: {r: 1, g: 1, b: 1, a: 1}
+  Title: Settings
+  Template: {fileID: 7380107263509763316, guid: 3047425d2d566fc429652183d0546ab3, type: 3}
