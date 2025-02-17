@@ -13,16 +13,24 @@ public class MusicTemplate : MonoBehaviour
     {
         audioSource = GetComponent<AudioSource>();
         slider = transform.GetChild(0).GetChild(1).transform.GetComponent<Slider>();
+        audioSource.Play();
+        
         
     }
     void Update()
     {
         slider.value = audioSource.time / audioSource.clip.length;
+        
         if (!audioSource.isPlaying)
         {
             playing = false;
             transform.GetChild(0).GetChild(0).GetComponent<Image>().sprite = Pause;
         }
+    }
+
+    public void Move()
+    {
+        audioSource.time = slider.value * audioSource.clip.length;
     }
 
     public void PlayStopButton()

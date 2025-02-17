@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c9111be60ae2e5a42937b2b79ee79027, type: 3}
-  m_Name: Settings
+  m_Name: Monster
   m_EditorClassIdentifier: 
-  BgSize: {x: 4, y: 4}
-  BgColor: {r: 1, g: 0.5, b: 0.5, a: 1}
-  DragTabSize: {x: 4, y: 0.25}
+  BgSize: {x: 8, y: 8}
+  BgColor: {r: 0.31132078, g: 0.31132078, b: 0.31132078, a: 1}
+  DragTabSize: {x: 8, y: 0.25}
   DragTabColor: {r: 1, g: 1, b: 1, a: 1}
-  Title: Settings
-  Template: {fileID: 7380107263509763316, guid: 3047425d2d566fc429652183d0546ab3, type: 3}
+  Title: BomBom (Ad)
+  Template: {fileID: 8516593470759848351, guid: 9a33c77229d21dc46bf5ccd046fb0de4, type: 3}

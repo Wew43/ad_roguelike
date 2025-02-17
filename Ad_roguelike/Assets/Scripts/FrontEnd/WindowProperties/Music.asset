@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Music
   m_EditorClassIdentifier: 
   BgSize: {x: 2, y: 3}
-  BgColor: {r: 0.5801887, g: 0.5801887, b: 1, a: 1}
+  BgColor: {r: 0.5, g: 0.5, b: 1, a: 1}
   DragTabSize: {x: 2, y: 0.25}
   DragTabColor: {r: 1, g: 1, b: 1, a: 1}
   Title: Music

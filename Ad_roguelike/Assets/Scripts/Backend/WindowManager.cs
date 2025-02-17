@@ -5,15 +5,18 @@ using UnityEngine;
 public class WindowManager : MonoBehaviour
 {
     public static List<Window> windows = new List<Window>();
+    public static List<MiniIcon> miniIcons = new List<MiniIcon>();
     void Start()
     {
         windows.Clear();
+        miniIcons.Clear();
         
     }
     void Update()
     {
         
     }
+
     public static void Up(Window w) //Метод поднимает нужный элемент из списка на самый верх
     {
         if (!windows.Contains(w)) 
@@ -35,6 +38,26 @@ public class WindowManager : MonoBehaviour
         }
     }
 
+    public static void Up(MiniIcon i) //Метод поднимает нужный элемент из списка на самый верх
+    {
+        if (!miniIcons.Contains(i))
+        {
+            miniIcons.Add(i);
+        }
+        else
+        {
+            miniIcons.Remove(i);
+            miniIcons.Add(i);
+        }    
+
+    }
+    public static void ReorganizeMiniIcons()
+    {
+        for (int j = 0; j < miniIcons.Count; j++)
+        {
+            miniIcons[j].transform.position = new Vector2(-7.65f + j * 0.75f, -4.65f);
+        }
+    }
 
     public static void CloseWindow(Window w)
     {
