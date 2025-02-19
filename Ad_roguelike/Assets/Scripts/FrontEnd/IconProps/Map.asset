@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2370c94312042334286ea13f93e03c81, type: 3}
-  m_Name: Settigs
+  m_Name: Map
   m_EditorClassIdentifier: 
-  windowProperties: {fileID: 11400000, guid: f72c94d5e141dd645bdf113f7a4ee47d, type: 2}
-  iconName: Settings
-  iconSprite: {fileID: -1268800499, guid: 7c02b09b7fe26ac4da0dcd3b59f52cd3, type: 3}
+  windowProperties: {fileID: 11400000, guid: 32c8c6da7972fb14a8a2e9a67b0ee1ee, type: 2}
+  iconName: Map
+  iconSprite: {fileID: 21300000, guid: 2a779c5e75f15964481b6687cf1405e9, type: 3}

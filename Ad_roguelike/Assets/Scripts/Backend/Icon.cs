@@ -5,7 +5,7 @@ using UnityEngine;
 public class Icon : MonoBehaviour
 {
     //переменные
-    bool ActiveWindow = false;
+    public bool ActiveWindow = false;
     [SerializeField] IconProperties iconProperties;
     [SerializeField] GameObject WindowPrefab, MiniIconPrefab;
     Window myWindow;
@@ -31,6 +31,7 @@ public class Icon : MonoBehaviour
             //a.transform.parent = Camera.main.transform.GetChild(0);
             myWindow = a.GetComponent<Window>();
             myWindow.windowProperties = iconProperties.windowProperties;
+            myWindow.MyIcon = this;
             var b = Instantiate(myWindow.windowProperties.Template, new Vector2(0, 0), Quaternion.identity);
             b.transform.parent = myWindow.transform.GetChild(3);
             WindowManager.Up(a.GetComponent<Window>());
@@ -40,6 +41,7 @@ public class Icon : MonoBehaviour
             c.GetComponent<MiniIcon>().myIcon = this;
             c.GetComponent<SpriteRenderer>().sprite = iconProperties.iconSprite;
             WindowManager.miniIcons.Add(c.GetComponent<MiniIcon>());
+            myWindow.MyMiniIcon = c.GetComponent<MiniIcon>();
             WindowManager.ReorganizeMiniIcons();
 
         }

@@ -9,7 +9,8 @@ public class Window : MonoBehaviour {
     public WindowProperties windowProperties;
     public bool isHolded;
     public Vector3 mouse, offset;
-
+    public Icon MyIcon;
+    public MiniIcon MyMiniIcon;
 
     private void Start()
     {
@@ -28,6 +29,7 @@ public class Window : MonoBehaviour {
         transform.GetChild(2).GetChild(0).GetComponent<RectTransform>().sizeDelta = new Vector2(windowProperties.DragTabSize.x, windowProperties.DragTabSize.y);
         transform.GetChild(2).GetComponent<RectTransform>().position = new Vector2(transform.position.x, transform.position.y + windowProperties.BgSize.y / 2 + windowProperties.DragTabSize.y / 2);
         transform.GetChild(2).GetChild(0).GetComponent<TMP_Text>().color = InvertColor(windowProperties.DragTabColor);
+        transform.GetChild(2).GetChild(1).GetComponent<RectTransform>().position = new Vector3(transform.GetChild(0).position.x + windowProperties.DragTabSize.x / 2 - 0.125f, transform.GetChild(0).position.y);
         //
 
         //Механика перемещения с отступом клика
@@ -43,6 +45,17 @@ public class Window : MonoBehaviour {
     {
         offset = DeleteZ(x);
     }
+    public void CloseWindow() 
+    { 
+        WindowManager.windows.Remove(this);
+        WindowManager.miniIcons.Remove(MyMiniIcon);
+        MyIcon.ActiveWindow = false;
+        WindowManager.ReorganizeMiniIcons();
+        Destroy(MyMiniIcon.gameObject);
+        Destroy(gameObject);
+        
+    }
+
     Color InvertColor(Color c)
     {
         //return new Color(1f - c.r, 1f - c.g, 1f - c.b, c.a);

@@ -355,7 +355,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1485594157, guid: 7c02b09b7fe26ac4da0dcd3b59f52cd3, type: 3}
+  m_Sprite: {fileID: -1675978926, guid: 7c02b09b7fe26ac4da0dcd3b59f52cd3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -644,7 +644,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -94670342, guid: 7c02b09b7fe26ac4da0dcd3b59f52cd3, type: 3}
+  m_Sprite: {fileID: -118251785, guid: 7c02b09b7fe26ac4da0dcd3b59f52cd3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -852,5 +852,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59fd73f09602a0846ac6486a13a86ce7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Play: {fileID: -94670342, guid: 7c02b09b7fe26ac4da0dcd3b59f52cd3, type: 3}
-  Pause: {fileID: 117403459, guid: 7c02b09b7fe26ac4da0dcd3b59f52cd3, type: 3}
+  Play: {fileID: -118251785, guid: 7c02b09b7fe26ac4da0dcd3b59f52cd3, type: 3}
+  Pause: {fileID: -1186094414, guid: 7c02b09b7fe26ac4da0dcd3b59f52cd3, type: 3}

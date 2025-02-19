@@ -61,11 +61,21 @@ public class WindowManager : MonoBehaviour
 
     public static void CloseWindow(Window w)
     {
-        w.gameObject.SetActive(false);
+        if (w != null)
+            w.gameObject.SetActive(false);
+        else
+        {
+            Debug.LogError("w = null");
+        }
     }
     public static void OpenWindow(Window w)
     {
-        w.gameObject.SetActive(true);
+        if (w != null)
+            w.gameObject.SetActive(true);
+        else
+        {
+            Debug.LogError("w = null");
+        }
     }
 
 }
