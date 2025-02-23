@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class WindowManager : MonoBehaviour
@@ -16,6 +17,7 @@ public class WindowManager : MonoBehaviour
     {
         
     }
+
 
     public static void Up(Window w) //Метод поднимает нужный элемент из списка на самый верх
     {
@@ -35,6 +37,7 @@ public class WindowManager : MonoBehaviour
             windows[j].gameObject.transform.GetChild(1).transform.GetComponent<SpriteRenderer>().sortingOrder = 0 + 100 * j; //заполнитель
             windows[j].gameObject.transform.GetChild(2).transform.GetComponent<Canvas>().sortingOrder = 2 + 100 * j; //канвас тайтла
             windows[j].gameObject.transform.GetChild(3).GetChild(0).GetChild(0).transform.GetComponent<Canvas>().sortingOrder = 3 + 100 * j; //канвас в темплейте
+            windows[j].gameObject.transform.GetChild(3).GetChild(0).transform.GetComponent<SortOrder>().MoveChilds(j); 
         }
     }
 

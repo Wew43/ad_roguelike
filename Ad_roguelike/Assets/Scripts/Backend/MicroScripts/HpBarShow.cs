@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
@@ -7,13 +5,13 @@ using TMPro;
 public class HpBarShop : MonoBehaviour
 {
     [SerializeField] Slider HpSlider;
-    [SerializeField] TMP_Text HpText, MinHpText, MaxHpText;    
+    [SerializeField] TMP_Text Text, MinHpText, MaxHpText;    
     void Start()
     {
         
     }
     void Update()
     {
-        HpText.text = HpSlider.value.ToString();
+        Text.text = HpSlider.value.ToString();
     }
 }

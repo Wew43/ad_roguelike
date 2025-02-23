@@ -58,7 +58,6 @@ public class Window : MonoBehaviour {
 
     Color InvertColor(Color c)
     {
-        //return new Color(1f - c.r, 1f - c.g, 1f - c.b, c.a);
         if((c.r + c.g + c.b)/3 >= 0.5f)
         {
             return Color.black;

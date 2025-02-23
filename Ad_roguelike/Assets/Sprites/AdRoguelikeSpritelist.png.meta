@@ -21,7 +21,7 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
     flipGreenChannel: 0
-  isReadable: 1
+  isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
@@ -144,14 +144,14 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02c2ae73411258b4ba903fa1ff0a96fd
-      internalID: -1013764292
+      spriteID: 7b964ebe44168124185f3fdfd72075dd
+      internalID: -1282217177
       vertices: []
       indices: 
       edges: []
@@ -160,19 +160,19 @@ TextureImporter:
       name: AdRoguelikeSpritelist_1
       rect:
         serializedVersion: 2
-        x: 112
+        x: 64
         y: 96
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16c3f4d9e58dd04408367c1353fb690c
-      internalID: -1946494178
+      spriteID: 7a1dbd27725f39844af8e1705ec40f46
+      internalID: 1585669645
       vertices: []
       indices: 
       edges: []
@@ -181,19 +181,19 @@ TextureImporter:
       name: AdRoguelikeSpritelist_2
       rect:
         serializedVersion: 2
-        x: 160
+        x: 112
         y: 96
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bee042c26d28c0d4b8a558a1c55fef45
-      internalID: 1793477578
+      spriteID: cfb240ee06c85e84c8c5a6213f2627b1
+      internalID: -2127723645
       vertices: []
       indices: 
       edges: []
@@ -202,19 +202,40 @@ TextureImporter:
       name: AdRoguelikeSpritelist_3
       rect:
         serializedVersion: 2
-        x: 16
-        y: 64
+        x: 160
+        y: 96
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4fa2f24aa2a23c3458606237c2f805a6
-      internalID: 7810427
+      spriteID: 7fc66fd35b0b0034c892bef9a94c30a0
+      internalID: 963979704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdRoguelikeSpritelist_4
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 934596ac0910d04499f4b780e29af567
+      internalID: -266073754
       vertices: []
       indices: 
       edges: []
@@ -223,19 +244,40 @@ TextureImporter:
       name: AdRoguelikeSpritelist_5
       rect:
         serializedVersion: 2
-        x: 112
+        x: 64
         y: 64
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2247b2667cd6cc34fb5b1400c14645a4
-      internalID: 287153458
+      spriteID: 8ba1e03c39412074ca1c98b3aa47f9f5
+      internalID: -1601501907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdRoguelikeSpritelist_6
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2da36fda413403f41ae494ab97dc8a1f
+      internalID: -117918814
       vertices: []
       indices: 
       edges: []
@@ -244,19 +286,19 @@ TextureImporter:
       name: AdRoguelikeSpritelist_7
       rect:
         serializedVersion: 2
-        x: 16
-        y: 32
+        x: 160
+        y: 64
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c78331c1a9b767a4d88bf4a0c8a0bbcf
-      internalID: -1118672837
+      spriteID: 8671fd4c276d3a8439d9db999f2eb1fa
+      internalID: 961230484
       vertices: []
       indices: 
       edges: []
@@ -266,18 +308,18 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 16
-        y: 0
+        y: 32
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 36b851f4a8941274b885e80be560d055
-      internalID: -129202588
+      spriteID: cde66be31dfc04a45ad71d78c415ffbc
+      internalID: -231153024
       vertices: []
       indices: 
       edges: []
@@ -287,18 +329,102 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 0
+        y: 32
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7066d768dfc99fd45b287e38fd560cb8
-      internalID: 1401572544
+      spriteID: 06f7630bb9cbc7e4ea196d956fcb9c61
+      internalID: 2097572523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdRoguelikeSpritelist_10
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c410ddebd0381a0468d3c743ae610b5e
+      internalID: 1221819061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdRoguelikeSpritelist_12
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6911e65923255bb41b751e9d65eb5b57
+      internalID: -1225379713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdRoguelikeSpritelist_13
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 173b1cf7db7abec46908c00290a91a75
+      internalID: -148528361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdRoguelikeSpritelist_14
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c30074a3218004847a7a9738717d7d7f
+      internalID: -2047837126
       vertices: []
       indices: 
       edges: []
@@ -314,16 +440,21 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      AdRoguelikeSpritelist_0: -1013764292
-      AdRoguelikeSpritelist_1: -1946494178
-      AdRoguelikeSpritelist_2: 1793477578
-      AdRoguelikeSpritelist_3: 7810427
-      AdRoguelikeSpritelist_4: 1642206918
-      AdRoguelikeSpritelist_5: 287153458
-      AdRoguelikeSpritelist_6: -1685973044
-      AdRoguelikeSpritelist_7: -1118672837
-      AdRoguelikeSpritelist_8: -129202588
-      AdRoguelikeSpritelist_9: 1401572544
+      AdRoguelikeSpritelist_0: -1282217177
+      AdRoguelikeSpritelist_1: 1585669645
+      AdRoguelikeSpritelist_10: 1221819061
+      AdRoguelikeSpritelist_11: -798794546
+      AdRoguelikeSpritelist_12: -1225379713
+      AdRoguelikeSpritelist_13: -148528361
+      AdRoguelikeSpritelist_14: -2047837126
+      AdRoguelikeSpritelist_2: -2127723645
+      AdRoguelikeSpritelist_3: 963979704
+      AdRoguelikeSpritelist_4: -266073754
+      AdRoguelikeSpritelist_5: -1601501907
+      AdRoguelikeSpritelist_6: -117918814
+      AdRoguelikeSpritelist_7: 961230484
+      AdRoguelikeSpritelist_8: -231153024
+      AdRoguelikeSpritelist_9: 2097572523
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

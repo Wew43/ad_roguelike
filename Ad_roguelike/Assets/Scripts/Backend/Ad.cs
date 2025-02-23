@@ -2,26 +2,22 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 public class Ad : MonoBehaviour
 {
-    [SerializeField] TMP_Text TimerSecondsText;
-    float time;
+    public TMP_Text TimerSecondsText, M1Text, M2Text, MaxHp, DurationTime;
+    public Slider hp, Duration;
+    Character character;
     void Start()
     {
-        StartCoroutine(Timer());
+        character = Camera.main.GetComponent<Character>();
+        character.StartTimer(this, 30f);
+        
     }
     void Update()
     {
 
     }
 
-    IEnumerator Timer()
-    {
-        while (time < 30f)
-        {
-            yield return new WaitForSeconds(Time.deltaTime);
-            time += Time.deltaTime * 15;
-            TimerSecondsText.text = time.ToString("0");
-        }
-    }
+
 }

@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windowProperties: {fileID: 11400000, guid: 8a62d7450fd6e3342b373876fa028ff9, type: 2}
   iconName: Monster
-  iconSprite: {fileID: -1984587901, guid: 678ba182f3c279649872b7f35de0af59, type: 3}
+  iconSprite: {fileID: -399362711, guid: 077dfbb4d4532bf4dae6cc0da536451d, type: 3}
